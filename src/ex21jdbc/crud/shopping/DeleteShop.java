@@ -5,6 +5,8 @@ import java.sql.Types;
 
 import ex21jdbc.crud.MyConnection;
 
+
+
 public class DeleteShop extends MyConnection {
 	
 	public DeleteShop() {
