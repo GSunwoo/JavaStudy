@@ -42,7 +42,7 @@ public class MyConnection implements IConnect{
 	
 	// 오버라이딩을 목적으로한 메서드라 실행부가 없다.
 	@Override
-	public void dbExcute() {
+	public void dbExecute() {
 		/*
 		CRUD(DB의 기본적인 4가지 작업)는 자식 클래스에서
 		처리되어야 하므로 부모클래스에서는 실행부를 정의할 수 없다.

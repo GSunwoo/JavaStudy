@@ -12,7 +12,7 @@ public class SQLselect2 extends MyConnection{
 	int result;
 	
 	@Override
-	public void dbExcute() {
+	public void dbExecute() {
 		try {
 			while(true) {
 				/*
@@ -43,6 +43,6 @@ public class SQLselect2 extends MyConnection{
 	}
 	
 	public static void main(String[] args) {
-		new SQLselect2("education", "1234").dbExcute();
+		new SQLselect2("education", "1234").dbExecute();
 	}
 }

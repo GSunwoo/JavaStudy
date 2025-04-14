@@ -22,7 +22,7 @@ public class SQLselect1 extends MyConnection{
 		  반복하여 인출한다.
 	 */
 	@Override
-	public void dbExcute() {
+	public void dbExecute() {
 		try{
 			stmt = con.createStatement();
 			// 레코드 전체를 조회하는 select 쿼리문 작성
@@ -69,7 +69,7 @@ public class SQLselect1 extends MyConnection{
 	
 	
 	public static void main(String[] args) {
-		new SQLselect1("education", "1234").dbExcute();
+		new SQLselect1("education", "1234").dbExecute();
 	}
 
 }

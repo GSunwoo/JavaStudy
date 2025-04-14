@@ -24,7 +24,7 @@ public class SQLinsert extends MyConnection {
 	
 	// insert 쿼리문 실행을 위한 메서드
 	@Override
-	public void dbExcute() {
+	public void dbExecute() {
 		try {
 			/*
 			Statement인터페이스
@@ -64,6 +64,6 @@ public class SQLinsert extends MyConnection {
 	
 	//정의된 클래스의 인스턴스를 생성하여 실행한다.
 	public static void main(String[] args) {
-		new SQLinsert("education", "1234").dbExcute();
+		new SQLinsert("education", "1234").dbExecute();
 	}
 }

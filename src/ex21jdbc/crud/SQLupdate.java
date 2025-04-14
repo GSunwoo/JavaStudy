@@ -12,7 +12,7 @@ public class SQLupdate extends MyConnection {
 	int result;
 	
 	@Override
-	public void dbExcute() {
+	public void dbExecute() {
 		try {
 			// Statement 인스턴스 생성(쿼리문과는 별도 생성)
 			stmt = con.createStatement();
@@ -53,7 +53,7 @@ public class SQLupdate extends MyConnection {
 	}
 	
 	public static void main(String[] args) {
-		new SQLupdate("education", "1234").dbExcute();;
+		new SQLupdate("education", "1234").dbExecute();;
 	}
 
 }

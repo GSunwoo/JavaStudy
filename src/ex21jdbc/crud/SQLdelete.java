@@ -12,7 +12,7 @@ public class SQLdelete extends MyConnection {
 	int result;
 	
 	@Override
-	public void dbExcute() {
+	public void dbExecute() {
 		try {
 			
 			stmt = con.createStatement();
@@ -36,7 +36,7 @@ public class SQLdelete extends MyConnection {
 	}
 	
 	public static void main(String[] args) {
-		new SQLdelete("education","1234").dbExcute();
+		new SQLdelete("education","1234").dbExecute();
 	}
 
 }
